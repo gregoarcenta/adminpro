@@ -7,7 +7,7 @@ import { ProgressComponent } from './progress/progress.component';
 
 const routes: Routes = [
   {
-    path:"",
+    path:"dashboard",
     component:LayoutDashboardComponent,
     children:[
       {

@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
+import { PagesModule } from './pages/pages.module';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
   ],
   imports: [
     BrowserModule,
+    PagesModule,
     AppRoutingModule
   ],
   providers: [],
